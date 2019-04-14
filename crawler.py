@@ -142,12 +142,12 @@ def main():
     THREAD_NUM = 3
 
     # 设置要爬取的URL以及需要获得的数据的索引
-    url = 'https://pacaio.match.qq.com/irs/rcd?cid=146&token=49cbb2154853ef1a74ff4e53723372ce&ext=digi&page=1'
-    index_list = ['id', 'title', 'publish_time', 'source']
+    url = ''
+    index_list = ['', '', '', '']
 
     # 设置接入数据库的信息
     # host、 username、 password、 port、 database、 table
-    info = ['localhost', 'root', 'moledata123', 3306, 'weibo', 'test']
+    info = ['', '', '', , '', '']
 
     # 执行主程序
     q = req_pool(url, URL_NUM)
